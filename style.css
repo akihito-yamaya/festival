@@ -7,3 +7,21 @@
     background-color: black;
     height: 100px;
 }
+
+.header li{
+    font-size: 40px;
+    font-family: HGP行書体;
+    float: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+.header ul{
+    margin-left: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
