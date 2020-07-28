@@ -6,7 +6,7 @@
 .header{
     background-color: black;
     height: 100px;
-    width: 100vw;
+    width: 100%;
     
 }
 
@@ -45,4 +45,10 @@ h1{
     font-size:15px;
     line-height:2.5;
     
+}
+
+.main-photo2 img{
+    width: 30%;
+    margin-left: 850px;
+    margin-top: -150px;
 }
