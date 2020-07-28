@@ -1,21 +1,20 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 header{
     background-color: black;
     height: 100px;
     width: 100%;
-    
 }
 
 header li{
     font-size: 40px;
     font-family: HGP行書体;
-    display: inline-block;
+    float: left;
     padding-top: 30px;
-    margin-left: 50px;
+    padding-left: 50px;
     list-style-type: none;
 }
 
@@ -23,13 +22,14 @@ header ul{
     margin-left: 500px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: white;
 }
 
 main img{
     width: 100%;
+
 }
 
 h1{
@@ -40,38 +40,45 @@ h1{
 }
 
 .main-text1{
-    padding-top: 100px;
-    padding-left: 150px;
+    padding-top: 60px;
+    padding-left: 190px;
     font-size:30px;
     line-height:2.5;
+    float: left;
     
 }
 
-.main-photo2 img{
-    width: 30%;
-    margin-left: 870px;
-    margin-top: -340px;
+.main-picture2 img{
+    width: 35%;
+    margin-left: 150px;
+    margin-top: 70px;
+    
+    
 }
 
 h2{
+    font-size:50px;
+    clear:both;
     text-align: center;
-    font-size: 50px;
-    padding-top: 80px;
-    font-family:serif
+    font-family: HGP行書体;
+    margin-top: 100px;
     
 }
 
-.main-photo3 img{
-    width: 25%;
-    padding-left: 90px;
-    padding-top: 60px;
-}
-
-.main-text2{
+.main-picture3{
     margin-left: 20px;
-    font-size: 50px;
-    margin-top: -40px;
-    color: black;
-    
 }
 
+.main-picture3 img{
+    width: 30%;
+    margin-top: 70px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+main li{
+    font-size: 30px;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 180px;
+}
