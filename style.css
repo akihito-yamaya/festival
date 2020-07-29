@@ -94,17 +94,26 @@ main li{
     
 }
 
-.night-course{
+.night-course1{
     background-color: gray;
-    height: 360px;
+    height: 900px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
+    position: absolute;
     
 }
 
-.night-course img{
-    width: 30%;
+.picture6{
+    width: 40%;
     margin-left: 100px;
     margin-top: 30px;
     
 }
+
+.picture7{
+    width: 40%;
+    margin-left: 800px;
+    margin-top: 20px;
+
+}
+
