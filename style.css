@@ -97,10 +97,10 @@ main li{
 
 .night-course1{
     background-color: gray;
-    height: 900px;
+    height: 950px;
     width: 100%;
     margin-top: 10px;
-    position: absolute;
+    position: relative;
     
 }
 
@@ -112,19 +112,55 @@ main li{
    
 }
 
-.nebuta-text1{
-    clear: right;
+.nebuta-text1 {
+    font-size: 50px;
+    padding-left: 1000px;
+    margin-top: 10px;
+    position: absolute;
+
+    font-family:serif
+
+}
+
+.nebuta-text2 p{
+    font-size: 28px;
+    margin-top: 100px;
+    margin-left: 800px;
+    position: absolute;
+    clear: both;
+    
+
+    
+}
+
+
+.hanabi-text1{
+    font-size: 50px;
+    padding-left: 300px;
+    margin-top: 500px;
+    position: absolute;
+    font-family:serif
+    
+}
+
+.hanabi-text2 p{
+    font-size: 28px;
+    margin-top: 600px;
+    margin-left: 80px;
+    position: absolute;
+    
+    
 }
 
 .picture7{
     width: 40%;
-    margin-left: 800px;
-    margin-top: 20px;
-    float: left;
+    margin-left: 850px;
+    margin-top: 500px;
+    position: absolute;
+    
+
     
 }
 
-.nebuta-text2{
-    clear: left;
-}
+
 
