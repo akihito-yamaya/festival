@@ -161,6 +161,20 @@ h2{
     float: left;
 }
 
+.main-picture4 h3{
+    margin-top: 40px;
+    margin-left: 800px;
+    font-size: 40px;
+    font-family: HGP行書体;
+}
+
+.main-picture4 p{
+    margin-top: 10px;
+    margin-left: 800px;
+    font-size: 20px;
+    font-family:serif
+}
+
 .night-course1{
     background-color: rgb(206, 199, 199);
     height: 950px;
