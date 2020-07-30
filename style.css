@@ -47,8 +47,27 @@ h1{
     font-family: HGP行書体;
 }
 
+.header-border{
+    display: flex;
+  align-items: center; 
+  justify-content: center;
+}
 
+.header-border:before, .header-border:after {
+    border-top: 5px solid;
+    content: "";
+    width: 15%; 
+    margin-top: 20px;
+}
 
+.header-border:before {
+    margin-right: 1em; 
+  }
+
+.header-border:after {
+    margin-left: 1em; 
+  }
+  
 .main-text1 h3{
     font-size: 55px;
     margin-left: 80px;
