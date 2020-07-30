@@ -98,18 +98,12 @@ b{
     float: left;
 }
 
-
-
-
-
 .main-picture2 img{
     width: 35%;
     margin-left: 150px;
     margin-top: 60px;
     
 }
-
-
 
 .circle{
     width: 100px;
@@ -143,7 +137,7 @@ b{
     float: left;
 }
 
-.main-picture3 h3{
+.main-picture3 h2{
     margin-top: 100px;
     margin-left: 800px;
     font-size: 40px;
@@ -153,7 +147,7 @@ b{
     border-bottom: 4px solid #DDD;
 }
 
-.main-picture3 h3::after {
+.main-picture3 h2::after {
     position: absolute;
     content: " ";
     border-bottom: solid 4px #446689;
@@ -194,7 +188,7 @@ b{
     float: left;
 }
 
-.main-picture4 h3{
+.main-picture4 h2{
     margin-top: 40px;
     margin-left: 800px;
     font-size: 40px;
@@ -204,7 +198,7 @@ b{
     border-bottom: 4px solid #DDD;
 }
 
-.main-picture4 h3::after {
+.main-picture4 h2::after {
     position: absolute;
     content: " ";
     border-bottom: solid 4px #446689;
@@ -230,6 +224,29 @@ b{
     position: relative;
     clear: both;
     
+}
+
+.main-border{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.main-border:before, .main-border:after {
+    border-top: 5px solid;
+    content: "";
+    width: 15%; 
+    margin-top: 30px;
+}
+
+.main-border:before {
+    margin-right: 1em; 
+  }
+
+.main-border:after {
+    margin-left: 1em; 
+
 }
 
 .picture6{
