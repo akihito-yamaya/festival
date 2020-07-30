@@ -115,27 +115,30 @@ h2{
     
 }
 
-.main-picture3{
-    margin-left: -20px;
-    position: relative;
-}
-
 .main-picture3 img{
     width: 25%;
-    margin-top: 70px;
-    display: inline-block;
-    margin-left: 100px;
-    position: relative;
+    margin-top: 20px;
+    margin-left: 350px;
+    float: left;
 }
 
+.main-picture3 h3{
+    margin-top: 40px;
+    margin-left: 800px;
+    font-size: 40px;
+}
 
+.main-picture3 p{
+    margin-top: 10px;
+    margin-left: 800px;
+    font-size: 20px;
+}
 
-main li{
-    font-size: 30px;
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 180px;
-    font-family:serif
+.border{
+    border-bottom: 1px  solid;
+    width: 45%;
+    margin-top: 3px;
+    margin-left: 780px;
 }
 
 .cuisine-page{
