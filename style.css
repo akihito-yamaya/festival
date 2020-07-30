@@ -145,6 +145,18 @@ h1{
     margin-left: 800px;
     font-size: 40px;
     font-family: HGP行書体;
+    position: relative;
+    padding-bottom: 0.5em;
+    border-bottom: 4px solid #DDD;
+}
+
+.main-picture3 h3::after {
+    position: absolute;
+    content: " ";
+    border-bottom: solid 4px #446689;
+    bottom: -4px;
+    width:30%;
+    display: block;
 }
 
 .main-picture3 p{
@@ -154,19 +166,11 @@ h1{
     font-family:serif
 }
 
-.main-picture3 h3::after {
-    content: " ";
-    border-bottom: solid 4px #446689;
-    bottom: -8px;
-    width:50%;
-    display: block;
-}
-
 .border{
     border-bottom: 1px  solid;
-    width: 30%;
+    width: 27%;
     margin-top: 10px;
-    margin-left: 780px;
+    margin-left: 800px;
 }
 
 .cuisine-page{
