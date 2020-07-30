@@ -196,6 +196,18 @@ h1{
     margin-left: 800px;
     font-size: 40px;
     font-family: HGP行書体;
+    position: relative;
+    padding-bottom: 0.5em;
+    border-bottom: 4px solid #DDD;
+}
+
+.main-picture4 h3::after {
+    position: absolute;
+    content: " ";
+    border-bottom: solid 4px #446689;
+    bottom: -4px;
+    width:30%;
+    display: block;
 }
 
 .main-picture4 p{
