@@ -77,6 +77,9 @@ h1{
      border-bottom: 4px solid #DDD;
 }
 
+b{
+    color: red;
+}
 .main-text1 h2::after {
     position: absolute;
     content: " ";
