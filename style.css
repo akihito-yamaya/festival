@@ -154,6 +154,13 @@ h2{
     
 }
 
+.main-picture4 img{
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 300px;
+    float: left;
+}
+
 .night-course1{
     background-color: rgb(206, 199, 199);
     height: 950px;
@@ -187,9 +194,7 @@ h2{
     margin-left: 800px;
     position: absolute;
     clear: both;
-    
 
-    
 }
 
 
