@@ -44,13 +44,13 @@ h1{
     text-align: center;
     font-size: 70px;
     padding-top: 40px;
-    font-family:serif
+    font-family: HGP行書体;
 }
 
 
 
 .main-text1 h3{
-    font-size: 40px;
+    font-size: 55px;
     margin-left: 80px;
     margin-top: 70px;
     font-family: HGP行書体;
@@ -106,15 +106,6 @@ h1{
     position: absolute;
 }
 
-h2{
-    font-size:50px;
-    clear:both;
-    text-align: center;
-    font-family: HGP行書体;
-    margin-top: 100px;
-    border-bottom: outset;
-    
-}
 
 .main-picture3 img{
     width: 30%;
@@ -135,6 +126,14 @@ h2{
     margin-left: 800px;
     font-size: 20px;
     font-family:serif
+}
+
+.main-picture3 h3::after {
+    content: " ";
+    border-bottom: solid 4px #446689;
+    bottom: -8px;
+    width:50%;
+    display: block;
 }
 
 .border{
@@ -176,12 +175,15 @@ h2{
     font-family:serif
 }
 
+
+
 .night-course1{
     background-color: rgb(206, 199, 199);
     height: 950px;
     width: 100%;
     margin-top: 10px;
     position: relative;
+    clear: both;
     
 }
 
