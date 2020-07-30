@@ -83,7 +83,26 @@ h1{
     margin-left: 20px;
     margin-top: 60px;
     
-    
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(238, 247, 120);
+    position: absolute;
+    margin-left: 810px;
+    margin-top: -400px;
+}
+
+.circle-text p{
+    font-size: 35px;
+    margin-left: 825px;
+    margin-top: -395px;
+    font-family: HGP行書体;
+    line-height: 1.2;
+    color: rgb(202, 196, 196);
+    position: absolute;
 }
 
 h2{
@@ -98,6 +117,7 @@ h2{
 
 .main-picture3{
     margin-left: -20px;
+    position: relative;
 }
 
 .main-picture3 img{
@@ -105,7 +125,10 @@ h2{
     margin-top: 70px;
     display: inline-block;
     margin-left: 100px;
+    position: relative;
 }
+
+
 
 main li{
     font-size: 30px;
