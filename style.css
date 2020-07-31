@@ -146,6 +146,7 @@ b{
     position: relative;
     padding-bottom: 0.5em;
     border-bottom: 4px solid #DDD;
+    width: 38%;
 }
 
 .main-picture3 h2::after {
@@ -153,7 +154,7 @@ b{
     content: " ";
     border-bottom: solid 4px #446689;
     bottom: -4px;
-    width:30%;
+    width: 57%;
     display: block;
 }
 
