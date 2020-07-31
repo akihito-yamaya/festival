@@ -307,6 +307,14 @@ b{
     font-family:serif
 }
 
+.hanabi-text3 p{
+    font-size: 24px;
+    margin-top: 770px;
+    margin-left: 120px;
+    position: absolute;
+    font-family:serif;
+}
+
 .picture7{
     width: 40%;
     margin-left: 850px;
