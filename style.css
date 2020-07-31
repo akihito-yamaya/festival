@@ -1,386 +1,428 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+    *{
+        padding: 0;
+        margin: 0;
+    }
 
-header{
-    background-color: black;
-    height: 100px;
-    width: 100%;
-}
+    header{
+        background-color: black;
+        height: 100px;
+        width: 100%;
+    }
 
-header li{
-    font-size: 40px;
-    font-family: HGP行書体;
-    float: left;
-    padding-top: 30px;
-    padding-left: 50px;
-    list-style-type: none;
-}
+    header li{
+        font-size: 40px;
+        font-family: HGP行書体;
+        float: left;
+        padding-top: 30px;
+        padding-left: 50px;
+        list-style-type: none;
+    }
 
-header ul{
-    margin-left: 500px;
-}
+    header ul{
+        margin-left: 500px;
+    }
 
-header a{
-    text-decoration: none;
-    color: white;
-}
+    header a{
+        text-decoration: none;
+        color: white;
+    }
 
-header a:hover{
-    color: #c4c40e;
-}
-
-
-main img{
-    width: 100%;
-    position: relative;
-}
+    header a:hover{
+        color: #c4c40e;
+    }
 
 
-h1{
-    text-align: center;
-    font-size: 70px;
-    padding-top: 40px;
-    font-family: HGP行書体;
-}
-
-.header-border{
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    margin-top: 80px;
-}
-
-.header-border:before, .header-border:after {
-    border-top: 5px solid;
-    content: "";
-    width: 15%; 
-    margin-top: 30px;
-}
-
-.header-border:before {
-    margin-right: 1em; 
-}
-
-.header-border:after {
-    margin-left: 1em; 
-}
-  
-.main-text1 h2{
-    font-size: 55px;
-    margin-left: 80px;
-    margin-top: 150px;
-    font-family: HGP行書体;
-    position: relative;
-     padding-bottom: 0.5em;
-     border-bottom: 4px solid #DDD;
-     width: 70%;
-}
-
-b{
-    color: red;
-}
-
-.main-text1 h2::after {
-    position: absolute;
-    content: " ";
-    border-bottom: solid 4px #446689;
-    bottom: -4px;
-    width:57%;
-    display: block;
-}
-
-.main-text1 p{
-    padding-top: 150px;
-    padding-left: 100px;
-    font-size:20px;
-    line-height: 2.0;
-    font-family:serif;
-    float: left;
-}
-
-.main-picture2 img{
-    width: 40%;
-    margin-left: 90px;
-    margin-top: 60px;
-   
-}
-
-.kinmedai-reserve{
-    clear: both;
-    font-size: 20px;
-    margin-left: 250px;
-    margin-top: -100px;
-}
-
-.kinmedai-reserve a{
-    display: inline-block;
-    background: linear-gradient(rgb(255, 123, 0), yellow); 
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 3px;
-    width: 20%;
-    text-align: center;
-    font-family:serif;
-}
+    main img{
+        width: 100%;
+        position: relative;
+    }
 
 
+    h1{
+        text-align: center;
+        font-size: 70px;
+        padding-top: 40px;
+        font-family: HGP行書体;
+    }
 
+    .header-border{
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        margin-top: 80px;
+    }
 
+    .header-border:before, .header-border:after {
+        border-top: 5px solid;
+        content: "";
+        width: 15%; 
+        margin-top: 30px;
+    }
 
-.circle{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: yellow;
-    position: absolute;
-    margin-left: 740px;
-    margin-top: -450px;
-}
+    .header-border:before {
+        margin-right: 1em; 
+    }
 
-.circle-text p{
-    font-size: 35px;
-    margin-left: 754px;
-    margin-top: -440px;
-    font-family: HGP行書体;
-    line-height: 1.2;
-    color: red;
-    position: absolute;
-}
-
-.main-picture3{
-    margin-top: 150px;
-    margin-left: -50px;
-}
-
-
-.main-picture3 img{
-    width: 35%;
-    margin-top: 10px;
-    margin-left: 250px;
-    float: left;
-}
-
-.main-picture3 h2{
-    margin-top: 100px;
-    margin-left: 840px;
-    font-size: 40px;
-    font-family: HGP行書体;
-    position: relative;
-    padding-bottom: 0.5em;
-    border-bottom: 4px solid #DDD;
-    width: 38%;
-}
-
-.main-picture3 h2::after {
-    position: absolute;
-    content: " ";
-    border-bottom: solid 4px #446689;
-    bottom: -4px;
-    width: 57%;
-    display: block;
-}
-
-.main-picture3 p{
-    margin-top: 20px;
-    margin-left: 840px;
-    font-size: 20px;
-    font-family:serif
-}
-
-.border{
-    border-bottom: 1px  solid;
-    width: 30%;
-    margin-top: 10px;
-    margin-left: 840px;
-}
-
-.cuisine-page{
-    margin-left: -130px;
-}
-
-.cuisine-page a {
-    font-size: 20px;
-    margin-left: 350px; 
-}
-
-.main-picture4{
-    margin-left: -50px;
-}
-
-.main-picture4 img{
-    width: 35%;
-    margin-top: 10px;
-    margin-left: 250px;
-    float: left;
-}
-
-.main-picture4 h2{
-    margin-top: 40px;
-    margin-left: 840px;
-    font-size: 40px;
-    font-family: HGP行書体;
-    position: relative;
-    padding-bottom: 0.5em;
-    border-bottom: 4px solid #DDD;
-    width: 38%;
-}
-
-.main-picture4 h2::after {
-    position: absolute;
-    content: " ";
-    border-bottom: solid 4px #446689;
-    bottom: -4px;
-    width: 57%;
-    display: block;
-}
-
-.main-picture4 p{
-    margin-top: 20px;
-    margin-left: 840px;
-    font-size: 20px;
-    font-family:serif
-}
-
-.night-course1{
-    background-color: rgb(206, 199, 199);
-    height: 950px;
-    width: 100%;
-    margin-top: 70px;
-    position: relative;
-    clear: both; 
-}
-
-.main-border h2{
-    text-align: center;
-    font-size: 70px;
-    padding-top: 40px;
-    font-family: HGP行書体;
-}
-
-.main-border{
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    margin-top: 80px;
-}
-
-.main-border:before, .main-border:after {
-    border-top: 5px solid;
-    content: "";
-    width: 15%; 
-    margin-top: 30px;
-}
-
-.main-border:before {
-    margin-right: 1em; 
-}
-
-.main-border:after {
-    margin-left: 1em; 
-}
-
-.picture6{
-    width: 40%;
-    margin-left: 100px;
-    margin-top: 30px;
-    float: left;
-}
-
-.nebuta-text1 {
-    font-size: 50px;
-    padding-left: 1000px;
-    margin-top: 40px;
-    margin-left: -140px;
-    position: absolute;
-    font-family:serif
-}
-
-.nebuta-text2 p{
-    font-size: 24px;
-    margin-top: 140px;
-    margin-left: 800px;
-    position: absolute;
-    font-family:serif;
-}
-
-.nabuta-text3 p{
-    font-size: 24px;
-    margin-top: 310px;
-    margin-left: 800px;
-    position: absolute;
-    font-family:serif;
-}
-
-.hanabi-text1{
-    font-size: 50px;
-    padding-left: 200px;
-    margin-top: 500px;
-    position: absolute;
-    font-family:serif;
-    clear: both;
-}
-
-.hanabi-text2 p{
-    font-size: 24px;
-    margin-top: 600px;
-    margin-left: 120px;
-    position: absolute;
-    font-family:serif
-}
-
-.hanabi-text3 p{
-    font-size: 24px;
-    margin-top: 770px;
-    margin-left: 120px;
-    position: absolute;
-    font-family:serif;
-}
-
-.picture7{
-    width: 40%;
-    margin-left: 850px;
-    margin-top: 500px;
-    position: absolute;
-}
-
-footer{
-    background-color: rgb(54, 53, 53);
-    height: 120px;
-    width: 100%;
-    margin-top: 1px;
-}
-
-footer p{
-    float: left;
-    font-size: 15px;
-    color: white;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-footer li{
-    font-size: 20px;
-    font-family:serif;
-    float: left;
-    padding-top: 30px;
-    padding-left: 30px;
-    list-style-type: none;
-    margin-top: 10px;
-}
-
-footer ul{
-    margin-left: 900px;
-  
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
+    .header-border:after {
+        margin-left: 1em; 
+    }
     
-}
+    .main-text1 h2{
+        font-size: 55px;
+        margin-left: 80px;
+        margin-top: 150px;
+        font-family: HGP行書体;
+        position: relative;
+        padding-bottom: 0.5em;
+        border-bottom: 4px solid #DDD;
+        width: 70%;
+    }
 
-footer a:hover{
-    color: #c4c40e;
-}
+    b{
+        color: red;
+    }
+
+    .main-text1 h2::after {
+        position: absolute;
+        content: " ";
+        border-bottom: solid 4px #446689;
+        bottom: -4px;
+        width:57%;
+        display: block;
+    }
+
+    .main-text1 p{
+        padding-top: 150px;
+        padding-left: 100px;
+        font-size:20px;
+        line-height: 2.0;
+        font-family:serif;
+        float: left;
+    }
+
+    .main-picture2 img{
+        width: 40%;
+        margin-left: 90px;
+        margin-top: 60px;
+    
+    }
+
+    .kinmedai-reserve{
+        clear: both;
+        font-size: 20px;
+        margin-left: 250px;
+        margin-top: -100px;
+    }
+
+    .kinmedai-reserve a{
+        display: inline-block;
+        background: linear-gradient(rgb(255, 123, 0), yellow); 
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 3px;
+        width: 20%;
+        text-align: center;
+        font-family:serif;
+    }
+
+
+
+
+
+    .circle{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: yellow;
+        position: absolute;
+        margin-left: 740px;
+        margin-top: -450px;
+    }
+
+    .circle-text p{
+        font-size: 35px;
+        margin-left: 754px;
+        margin-top: -440px;
+        font-family: HGP行書体;
+        line-height: 1.2;
+        color: red;
+        position: absolute;
+    }
+
+    .main-picture3{
+        margin-top: 150px;
+        margin-left: -50px;
+    }
+
+
+    .main-picture3 img{
+        width: 35%;
+        margin-top: 10px;
+        margin-left:250px;
+        float: left;
+    }
+
+    .main-picture3 h2{
+        margin-top: 100px;
+        margin-left: 840px;
+        font-size: 40px;
+        font-family: HGP行書体;
+        position: relative;
+        padding-bottom: 0.5em;
+        border-bottom: 4px solid #DDD;
+        width: 38%;
+    }
+
+    .main-picture3 h2::after {
+        position: absolute;
+        content: " ";
+        border-bottom: solid 4px #446689;
+        bottom: -4px;
+        width: 57%;
+        display: block;
+    }
+
+    .main-picture3 p{
+        margin-top: 20px;
+        margin-left:840px;
+        font-size: 20px;
+        font-family:serif;
+        
+    }
+
+    .beef-reserve{
+        font-size: 20px;
+        margin-left: 1250px;
+        margin-top: -50px;
+    }
+
+
+
+    .beef-reserve a{
+        background: linear-gradient(rgb(255, 123, 0), yellow); 
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 3px;
+        width: 25%;
+        text-align: center;
+        font-family:serif;   
+    }
+
+
+
+
+    .border{
+        border-bottom: 1px  solid;
+        width: 30%;
+        margin-top: 10px;
+        margin-left: 840px;
+    }
+
+    .cuisine-page{
+        margin-left: -130px;
+    }
+
+    .cuisine-page a {
+        font-size: 20px;
+        margin-left: 350px; 
+    }
+
+    .main-picture4{
+        margin-left: -50px;
+    }
+
+    .main-picture4 img{
+        width: 35%;
+        margin-top: 10px;
+        margin-left: 250px;
+        float: left;
+        clear: both;
+
+    }
+
+    .main-picture4 h2{
+        margin-top: 40px;
+        margin-left: 840px;
+        font-size: 40px;
+        font-family: HGP行書体;
+        position: relative;
+        padding-bottom: 0.5em;
+        border-bottom: 4px solid #DDD;
+        width: 38%;
+    }
+
+    .main-picture4 h2::after {
+        position: absolute;
+        content: " ";
+        border-bottom: solid 4px #446689;
+        bottom: -4px;
+        width: 57%;
+        display: block;
+    }
+
+    .main-picture4 p{
+        margin-top: 20px;
+        margin-left: 840px;
+        font-size: 20px;
+        font-family:serif
+    }
+
+    .sushi-reserve{
+        font-size: 20px;
+        margin-left: 1250px;
+        margin-top: -50px;
+    }
+
+
+
+    .sushi-reserve a{
+        background: linear-gradient(rgb(255, 123, 0), yellow); 
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 3px;
+        width: 25%;
+        text-align: center;
+        font-family:serif;   
+    }
+
+    .night-course1{
+        background-color: rgb(206, 199, 199);
+        height: 950px;
+        width: 100%;
+        margin-top: 70px;
+        position: relative;
+        clear: both; 
+    }
+
+    .main-border h2{
+        text-align: center;
+        font-size: 70px;
+        padding-top: 40px;
+        font-family: HGP行書体;
+    }
+
+    .main-border{
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .main-border:before, .main-border:after {
+        border-top: 5px solid;
+        content: "";
+        width: 15%; 
+        margin-top: 30px;
+    }
+
+    .main-border:before {
+        margin-right: 1em; 
+    }
+
+    .main-border:after {
+        margin-left: 1em; 
+    }
+
+    .picture6{
+        width: 40%;
+        margin-left: 100px;
+        margin-top: 30px;
+        float: left;
+    }
+
+    .nebuta-text1 {
+        font-size: 50px;
+        padding-left: 1000px;
+        margin-top: 40px;
+        margin-left: -140px;
+        position: absolute;
+        font-family:serif
+    }
+
+    .nebuta-text2 p{
+        font-size: 24px;
+        margin-top: 140px;
+        margin-left: 800px;
+        position: absolute;
+        font-family:serif;
+    }
+
+    .nabuta-text3 p{
+        font-size: 24px;
+        margin-top: 310px;
+        margin-left: 800px;
+        position: absolute;
+        font-family:serif;
+    }
+
+    .hanabi-text1{
+        font-size: 50px;
+        padding-left: 200px;
+        margin-top: 500px;
+        position: absolute;
+        font-family:serif;
+        clear: both;
+    }
+
+    .hanabi-text2 p{
+        font-size: 24px;
+        margin-top: 600px;
+        margin-left: 120px;
+        position: absolute;
+        font-family:serif
+    }
+
+    .hanabi-text3 p{
+        font-size: 24px;
+        margin-top: 770px;
+        margin-left: 120px;
+        position: absolute;
+        font-family:serif;
+    }
+
+    .picture7{
+        width: 40%;
+        margin-left: 850px;
+        margin-top: 500px;
+        position: absolute;
+    }
+
+    footer{
+        background-color: rgb(54, 53, 53);
+        height: 120px;
+        width: 100%;
+        margin-top: 1px;
+    }
+
+    footer p{
+        float: left;
+        font-size: 15px;
+        color: white;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    footer li{
+        font-size: 20px;
+        font-family:serif;
+        float: left;
+        padding-top: 30px;
+        padding-left: 30px;
+        list-style-type: none;
+        margin-top: 10px;
+    }
+
+    footer ul{
+        margin-left: 900px;
+    
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    footer a:hover{
+        color: #c4c40e;
+    }
