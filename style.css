@@ -334,6 +334,7 @@ footer p{
     font-size: 15px;
     color: white;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 footer li{
@@ -347,7 +348,7 @@ footer li{
 
 footer ul{
     margin-left: 900px;
-    margin-top: 20px;
+  
 }
 
 footer a{
