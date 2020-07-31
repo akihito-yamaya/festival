@@ -112,14 +112,14 @@ b{
     border-radius: 50%;
     background: yellow;
     position: absolute;
-    margin-left: 810px;
-    margin-top: -400px;
+    margin-left: 740px;
+    margin-top: -450px;
 }
 
 .circle-text p{
     font-size: 35px;
-    margin-left: 825px;
-    margin-top: -395px;
+    margin-left: 754px;
+    margin-top: -440px;
     font-family: HGP行書体;
     line-height: 1.2;
     color: red;
