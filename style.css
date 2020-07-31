@@ -347,11 +347,13 @@ footer li{
 
 footer ul{
     margin-left: 900px;
+    margin-top: 20px;
 }
 
 footer a{
     text-decoration: none;
-    color: black;
+    color: white;
+    
 }
 
 footer a:hover{
