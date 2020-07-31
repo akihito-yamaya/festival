@@ -168,7 +168,7 @@ b{
 
 .border{
     border-bottom: 1px  solid;
-    width: 27%;
+    width: 30%;
     margin-top: 10px;
     margin-left: 840px;
 }
@@ -282,6 +282,14 @@ b{
     font-family:serif;
 }
 
+.nabuta-text3 p{
+    font-size: 24px;
+    margin-top: 300px;
+    margin-left: 800px;
+    position: absolute;
+    font-family:serif;
+}
+
 .hanabi-text1{
     font-size: 50px;
     padding-left: 200px;
@@ -312,6 +320,8 @@ footer{
     width: 100%;
     margin-top: 20px;
 }
+
+
 
 footer li{
     font-size: 20px;
