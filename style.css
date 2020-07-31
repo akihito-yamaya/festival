@@ -332,6 +332,8 @@ footer{
 footer p{
     float: left;
     font-size: 15px;
+    color: white;
+    margin-top: 20px;
 }
 
 footer li{
