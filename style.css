@@ -329,7 +329,10 @@ footer{
     margin-top: 20px;
 }
 
-
+footer p{
+    float: left;
+    font-size: 15px;
+}
 
 footer li{
     font-size: 20px;
