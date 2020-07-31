@@ -164,7 +164,7 @@
         font-size: 40px;
         font-family: HGP行書体;
         position: relative;
-        padding-bottom: 0.5em;
+        padding-bottom: 0.1em;
         border-bottom: 4px solid #DDD;
         width: 38%;
     }
@@ -203,9 +203,6 @@
         font-family:serif;   
     }
 
-
-
-
     .border{
         border-bottom: 1px  solid;
         width: 30%;
@@ -240,7 +237,7 @@
         font-size: 40px;
         font-family: HGP行書体;
         position: relative;
-        padding-bottom: 0.5em;
+        padding-bottom: 0.1em;
         border-bottom: 4px solid #DDD;
         width: 38%;
     }
