@@ -87,7 +87,7 @@
         content: " ";
         border-bottom: solid 4px #446689;
         bottom: -4px;
-        width:57%;
+        width:80%;
         display: block;
     }
 
@@ -124,10 +124,6 @@
         text-align: center;
         font-family:serif;
     }
-
-
-
-
 
     .circle{
         width: 100px;
@@ -178,7 +174,7 @@
         content: " ";
         border-bottom: solid 4px #446689;
         bottom: -4px;
-        width: 57%;
+        width: 80%;
         display: block;
     }
 
@@ -256,7 +252,7 @@
         content: " ";
         border-bottom: solid 4px #446689;
         bottom: -4px;
-        width: 57%;
+        width: 80%;
         display: block;
     }
 
